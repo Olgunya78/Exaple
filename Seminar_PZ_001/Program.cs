@@ -8,12 +8,5 @@ Console.WriteLine("Введите число a: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число b: ");
 int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число c: ");
-int c = Convert.ToInt32(Console.ReadLine());
-if (a > b) 
-{
-if (a > c){Console.WriteLine($"Максимальное число {a}");}
-else {Console.WriteLine($"Максимальное число {c}");}
-}
-else if (b > c) {Console.WriteLine($"Максимальное число {b}");}
-else Console.WriteLine($"Максимальное число {c}");
+if (a > b) {Console.WriteLine($"В ходе сравнения вышло, что {a} больше {b}");}
+else if (b > a) {Console.WriteLine($"В ходе сравнения вышло, что {b} больше {a}");}
