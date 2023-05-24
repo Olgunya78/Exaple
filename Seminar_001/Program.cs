@@ -6,8 +6,8 @@
 // -7 -> 49
 
 Console.Write("Введите число: ");
-
 int nam = Convert.ToInt32(Console.ReadLine());
+
 
 int result = nam * nam;
 Console.WriteLine($"Результат: {result}");
