@@ -71,7 +71,7 @@
 // {if (e > g) {Console.WriteLine($"Максимальное число {e}");}
 // else Console.WriteLine($"Максимальное число {g}");}
 
-
+// рабочая программа в итоге
 Console.WriteLine("Введите число a: ");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число b: ");
